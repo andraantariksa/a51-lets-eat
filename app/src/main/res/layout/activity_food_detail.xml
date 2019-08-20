@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="358dp" android:background="@color/design_default_color_primary">
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@color/colorAccent" android:id="@+id/image_view_food_image"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="20dp" android:layout_marginStart="20dp" android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp" android:layout_marginEnd="20dp" android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"/>
+        <TextView
+                android:text="Food Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/text_view_food_name"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center|center_horizontal" android:textStyle="bold" android:textSize="24sp"
+                android:padding="10dp" android:paddingStart="10dp" android:paddingLeft="10dp" android:paddingTop="10dp"
+                android:paddingEnd="10dp" android:paddingRight="10dp" android:paddingBottom="10dp"/>
+        <TextView
+                android:text="Food Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/text_view_food_price"
+                android:textColor="@android:color/background_light"
+                android:layout_gravity="center|center_horizontal" android:textStyle="bold" android:textSize="24sp"
+                android:padding="10dp" android:paddingStart="10dp" android:paddingLeft="10dp" android:paddingEnd="10dp"
+                android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+    <TextView
+            android:text="Food Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/text_view_food_description"
+            android:layout_gravity="center" android:layout_margin="30dp" android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp" android:layout_marginTop="30dp" android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp" android:layout_marginBottom="30dp"/>
+</LinearLayout>

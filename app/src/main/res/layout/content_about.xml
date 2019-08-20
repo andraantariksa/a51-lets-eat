@@ -20,7 +20,7 @@
         <TextView
                 android:text="Andra Antariksa"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/textView2"
+                android:layout_height="wrap_content" android:id="@+id/text_view_food_name"
                 android:textColor="@android:color/background_light"
                 android:layout_gravity="center|center_horizontal" android:textStyle="bold" android:textSize="24sp"/>
     </LinearLayout>
