@@ -8,7 +8,7 @@
                 android:id="@+id/food_item">
 
     <ImageView
-            android:id="@+id/image_view_food_image"
+            android:id="@+id/image_view_food"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_margin="10dp"
@@ -18,8 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/image_view_food_image"
-            android:layout_toRightOf="@id/image_view_food_image"
+            android:layout_toEndOf="@id/image_view_food"
+            android:layout_toRightOf="@id/image_view_food"
             android:orientation="vertical">
         <TextView
                 android:id="@+id/text_view_food_name"

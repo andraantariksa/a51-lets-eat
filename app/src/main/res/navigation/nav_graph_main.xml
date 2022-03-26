@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/fragment_main">
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="io.gitlab.andraantariksa.letseat.ui.MainFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/fragment_about"
+        android:name="io.gitlab.andraantariksa.letseat.ui.AboutFragment"
+        android:label="About" />
+</navigation>
